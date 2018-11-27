@@ -50,4 +50,6 @@ function fortune()
     let fortune=(Math.floor(Math.random()*luck.length));
     
     alert("Your Fortune: "+luck[fortune]);
+    var node=document.getElementById('myb');
+    node.style.visibility='hidden';
 }
